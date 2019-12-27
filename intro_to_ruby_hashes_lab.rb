@@ -24,6 +24,6 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key]
-    hash[key.to_sym] + 1
+    key + 1
   end
 end
